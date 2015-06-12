@@ -1,6 +1,6 @@
-description 'datepicker', ->
+describe 'datepicker', ->
 
-  description 'get_day_of_week', ->
+  describe 'get_day_of_week', ->
 
     it 'should return correct day of the week', ->
       dp = new Datepicker 2015, 5, 12
